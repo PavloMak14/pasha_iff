@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.header {
+    background-color: brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.list {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+.item {
+    margin-right: 10px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+}
+.hero-title {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+
+}
+.hero-text {
+    color: brown;
+    font-size: 38px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+.hero-btn {
+    background-color: brown;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+.hero-img {
+    width: 600px;
+}
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-title {
+text-align: center;
+font-size: 38px;
+font-weight: bold;
+}
+.about-box {
+    display: flex;
+}
+.about-text {
+    font-size: 28px;
+}
+.gallery-title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.gallery-box {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-img {
+    height: 200px;
+    width: 300px;
+}
+.footer {
+    background-color: brown;
+    margin-top: 20px;
+}
+.footer-text {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
